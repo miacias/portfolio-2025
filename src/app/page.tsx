@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <Avatar.Root size={"2xl"}>
-        <Avatar.Image src="/IMG20250405144435.jpg" alt="Avatar" />
+        <Avatar.Image src="/images/IMG20250405144435.jpg" alt="Avatar" />
       </Avatar.Root>
 
       <main className={styles.main}>
@@ -25,7 +25,7 @@ export default function Home() {
             overflow="hidden"
             id="sparc-concorde-card-2025"
           >
-            <Image src="/Concorde-sparc.png" alt="Landing page for Sparc" />
+            <Image src="/images/Concorde-sparc.png" alt="Landing page for Sparc" />
 
             <Card.Body gap="2" p="4">
               <Card.Title>Concorde Inc. - Sparc</Card.Title>
@@ -96,7 +96,7 @@ export default function Home() {
             id="alternate-universes-card-2025"
           >
             <Image
-              src="/Alternate-Universes-STAGING-crop.png"
+              src="/images/Alternate-Universes-STAGING-crop.png"
               alt="Landing page for Alternate Universes"
             />
 
@@ -159,7 +159,7 @@ export default function Home() {
 
           <Card.Root maxW="lg" overflow="hidden" id="mynavsup-card-2024">
             <Image
-              src="/MyNAVSUP.png"
+              src="/images/MyNAVSUP.png"
               alt="Landing page for Naval Supply Systems Command"
             />
 
@@ -208,7 +208,7 @@ export default function Home() {
 
           <Card.Root maxW="lg" overflow="hidden" id="lees-cleaners-card-2024">
             <Image
-              src="/lees-cleaners.png"
+              src="/images/lees-cleaners.png"
               alt="Landing page of Lee's Cleaners"
             />
 
