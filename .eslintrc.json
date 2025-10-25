@@ -2,5 +2,26 @@
   "extends": [
     "next/core-web-vitals",
     "next/typescript"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "src/components/ui/**/*.tsx",
+        "src/components/ui/**/*.ts"
+      ],
+      "rules": {
+        "@typescript-eslint/no-empty-object-type": "off",
+        "@typescript-eslint/no-empty-interface": "off",
+        "@typescript-eslint/ban-types": "off"
+      }
+    },
+    {
+      "files": [
+        "src/types/**/*.d.ts"
+      ],
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "off"
+      }
+    }
   ]
 }
