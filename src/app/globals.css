@@ -30,17 +30,19 @@
   font-display: swap;
 }
 
-/* :root {
+:root {
   --background: #ffffff;
-  --foreground: #171717;
+  /* --foreground: #B7A3E3; */
+  --foreground: #533B4D;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    /* --background: #B7A3E3; */
+    --background: #533B4D;
     --foreground: #ededed;
   }
-} */
+}
 
 html,
 body {
