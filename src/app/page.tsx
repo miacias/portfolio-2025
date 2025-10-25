@@ -220,7 +220,7 @@ export default function Home() {
             />
 
             <Card.Body gap="2" p="4">
-              <Card.Title>Lee's Cleaners</Card.Title>
+              <Card.Title>{`Lee's Cleaners`}</Card.Title>
 
               <Card.Description>
                 Simple website for a local dry cleaning business.
