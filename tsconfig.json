@@ -29,10 +29,6 @@
         "./src/utils/*"
       ]
     },
-    "typeRoots": [
-      "./node_modules/@types",
-      "./src/types"
-    ],
     "plugins": [
       {
         "name": "next"
