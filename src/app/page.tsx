@@ -3,6 +3,7 @@ import {
 } from "@chakra-ui/react";
 import styles from "./page.module.css";
 import { Projects } from "@/components/Projects";
+import { ToolsAndTech } from "@/components/ToolsAndTech";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Projects />
+        <ToolsAndTech />
       </main>
 
       <footer className={styles.footer}></footer>

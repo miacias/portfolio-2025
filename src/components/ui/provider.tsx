@@ -38,10 +38,20 @@ const customSystem = createSystem(defaultConfig, {
   },
 })
 
+import React from "react";
+
 export function Provider(props: ColorModeProviderProps) {
+  const [mounted, setMounted] = React.useState(false);
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
+  if (!mounted) {
+    // Optionally render a fallback here (e.g., a spinner)
+    return null;
+  }
   return (
     <ChakraProvider value={customSystem}>
       <ColorModeProvider {...props} />
     </ChakraProvider>
-  )
+  );
 }

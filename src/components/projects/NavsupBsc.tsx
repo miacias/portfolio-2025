@@ -26,12 +26,11 @@ export const NavsupBsc = () => {
       <Card.Body gap="2" p="4">
         <Card.Title color='purple.200'>MyNAVSUP Portal</Card.Title>
 
-        <Card.Description color='red.300'>
           <Text
             textStyle="xl"
             fontWeight="medium"
             letterSpacing="tight"
-            mt="2"
+            color='red.300'
           >
             May - November 2024
           </Text>
@@ -39,10 +38,10 @@ export const NavsupBsc = () => {
             textStyle="md"
             fontWeight="normal"
             letterSpacing="tight"
+            color='red.300'
           >
             Suite of 150 internal applications for the U.S. Navy.
           </Text>
-        </Card.Description>
 
         <Flex gap={2}>
           <For each={toolsUsed}>
@@ -75,6 +74,7 @@ export const NavsupBsc = () => {
               p="2"
               color='black'
               backgroundColor='purple.200'
+              target="_blank"
             >
               {link.label}
             </LinkButton>

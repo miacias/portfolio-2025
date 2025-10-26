@@ -25,9 +25,9 @@ export const AlternateUniverses = () => {
   return (
     <Card.Root
       maxW="lg"
-      minW='md'
+      minW="md"
       overflow="hidden"
-      backgroundColor='gray.800'
+      backgroundColor="gray.800"
       id="alternate-universes-card-2025"
     >
       <Image
@@ -36,32 +36,31 @@ export const AlternateUniverses = () => {
       />
 
       <Card.Body gap="2" p="4">
-        <Card.Title color='purple.200'>Alternate Universes</Card.Title>
+        <Card.Title color="purple.200">Alternate Universes</Card.Title>
 
-        <Card.Description color='red.300'>
-          <Text
-            textStyle="lg"
-            fontWeight="medium"
-            letterSpacing="tight"
-          >
-            March 2024 - October 2025
-          </Text>
-          <Text
-            textStyle="md"
-            fontWeight="normal"
-            letterSpacing="tight"
-          >
-            Content management system and website for local game store
-            franchise.
-          </Text>
-        </Card.Description>
+        <Text
+          textStyle="lg"
+          fontWeight="medium"
+          letterSpacing="tight"
+          color="red.300"
+        >
+          March 2024 - October 2025
+        </Text>
+        <Text
+          textStyle="md"
+          fontWeight="normal"
+          letterSpacing="tight"
+          color="red.300"
+        >
+          Content management system and website for local game store franchise.
+        </Text>
 
         <Flex gap={2} wrap="wrap">
           <For each={toolsUsed}>
             {(tool) => (
               <Badge
                 key={tool}
-                backgroundColor='brand.secondary'
+                backgroundColor="brand.secondary"
                 color="black"
                 w="max-content"
                 p="1"
@@ -72,11 +71,11 @@ export const AlternateUniverses = () => {
           </For>
         </Flex>
 
-        <Text color='yellow.100'>
-          Built a custom WordPress theme using Faust.js to connect to a
-          Next.js front-end, enabling dynamic content updates via WordPress
-          admin panel. Implemented Apollo GraphQL for efficient data fetching
-          and Mantine UI for a responsive, user-friendly design.
+        <Text color="yellow.100">
+          Built a custom WordPress theme using Faust.js to connect to a Next.js
+          front-end, enabling dynamic content updates via WordPress admin panel.
+          Implemented Apollo GraphQL for efficient data fetching and Mantine UI
+          for a responsive, user-friendly design.
         </Text>
       </Card.Body>
 
@@ -87,8 +86,9 @@ export const AlternateUniverses = () => {
               key={link.label}
               href={link.href}
               p="2"
-              color='black'
-              backgroundColor='purple.200'
+              color="black"
+              backgroundColor="purple.200"
+              target="_blank"
             >
               {link.label}
             </LinkButton>

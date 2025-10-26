@@ -2,7 +2,7 @@ import { Badge, Card, Flex, For, Image, Text } from "@chakra-ui/react";
 import { LinkButton } from "@/components/ui/link-button";
 
 export const LeesCleaners = () => {
-  const toolsUsed = ["Vite", 'JavaScript', 'CSS3', "HTML5"];
+  const toolsUsed = ["Vite", "JavaScript", "CSS3", "HTML5"];
   const externalLinks = [
     {
       label: "View Site",
@@ -17,9 +17,9 @@ export const LeesCleaners = () => {
   return (
     <Card.Root
       maxW="lg"
-      minW='md'
+      minW="md"
       overflow="hidden"
-      backgroundColor='gray.800'
+      backgroundColor="gray.800"
       id="lees-cleaners-card-2024"
     >
       <Image
@@ -28,32 +28,33 @@ export const LeesCleaners = () => {
       />
 
       <Card.Body gap="2" p="4">
-        <Card.Title color='purple.200'>{`Lee's Cleaners`}</Card.Title>
+        <Card.Title color="purple.200">{`Lee's Cleaners`}</Card.Title>
 
-        <Card.Description color='red.300'>
-          <Text
-            textStyle="xl"
-            fontWeight="medium"
-            letterSpacing="tight"
-            mt="2"
-          >
-            March 2024
-          </Text>
-          <Text
-            textStyle="md"
-            fontWeight="normal"
-            letterSpacing="tight"
-          >
-            Simple website for a local dry cleaning business.
-          </Text>
-        </Card.Description>
+        <Text
+          color="red.300"
+          textStyle="xl"
+          fontWeight="medium"
+          letterSpacing="tight"
+          mt="2"
+        >
+          March 2024
+        </Text>
+
+        <Text
+          color="red.300"
+          textStyle="md"
+          fontWeight="normal"
+          letterSpacing="tight"
+        >
+          Simple website for a local dry cleaning business.
+        </Text>
 
         <Flex gap={2}>
           <For each={toolsUsed}>
             {(tool) => (
               <Badge
                 key={tool}
-                backgroundColor='brand.secondary'
+                backgroundColor="brand.secondary"
                 color="black"
                 w="max-content"
                 p="1"
@@ -64,9 +65,9 @@ export const LeesCleaners = () => {
           </For>
         </Flex>
 
-        <Text color='yellow.100'>
-          Website built to provide online presence and contact information
-          for local business.
+        <Text color="yellow.100">
+          Website built to provide online presence and contact information for
+          local business.
         </Text>
       </Card.Body>
 
@@ -77,8 +78,9 @@ export const LeesCleaners = () => {
               key={link.label}
               href={link.href}
               p="2"
-              color='black'
-              backgroundColor='purple.200'
+              color="black"
+              backgroundColor="purple.200"
+              target="_blank"
             >
               {link.label}
             </LinkButton>
