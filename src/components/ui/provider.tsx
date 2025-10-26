@@ -20,6 +20,7 @@ const customSystem = createSystem(defaultConfig, {
       colors: {
         brand: {
           theme: { value: '#B7A3E3' },
+          dark: { value: '#2b2833' },
           primary: { value: '#FF8F8F' },
           secondary: { value: '#FFF1CB' },
           accent: { value: '#C2E2FA' },

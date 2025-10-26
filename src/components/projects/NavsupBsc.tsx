@@ -12,10 +12,10 @@ export const NavsupBsc = () => {
 
   return (
     <Card.Root
-      maxW="lg"
+      maxW="xl"
       minW='md'
       overflow="hidden"
-      backgroundColor='gray.800'
+      backgroundColor='brand.dark'
       id="mynavsup-card-2024"
     >
       <Image

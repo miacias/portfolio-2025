@@ -24,10 +24,10 @@ export const AlternateUniverses = () => {
 
   return (
     <Card.Root
-      maxW="lg"
+      maxW="xl"
       minW="md"
       overflow="hidden"
-      backgroundColor="gray.800"
+      backgroundColor='brand.dark'
       id="alternate-universes-card-2025"
     >
       <Image

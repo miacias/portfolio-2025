@@ -24,10 +24,10 @@ export const ConcordeInc = () => {
 
   return (
     <Card.Root
-      maxW="lg"
+      maxW="xl"
       minW="md"
       overflow="hidden"
-      backgroundColor="gray.800"
+      backgroundColor='brand.dark'
       id="sparc-concorde-card-2025"
     >
       <Image src="/images/Concorde-sparc.png" alt="Landing page for Sparc" />

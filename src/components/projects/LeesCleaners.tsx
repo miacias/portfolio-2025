@@ -16,10 +16,10 @@ export const LeesCleaners = () => {
 
   return (
     <Card.Root
-      maxW="lg"
+      maxW="xl"
       minW="md"
       overflow="hidden"
-      backgroundColor="gray.800"
+      backgroundColor='brand.dark'
       id="lees-cleaners-card-2024"
     >
       <Image

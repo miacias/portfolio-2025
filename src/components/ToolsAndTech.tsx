@@ -367,7 +367,7 @@ export const ToolsAndTech = () => {
           collection={bestPracticesTree}
           defaultExpandedValue={['cat-0']}
           maxW="xs"
-          backgroundColor="gray.800"
+          backgroundColor="gray.900"
           p={3}
           id="best-practices-tree"
         >
@@ -400,7 +400,7 @@ export const ToolsAndTech = () => {
         <TreeView.Root
           collection={languageTree}
           maxW="xs"
-          backgroundColor="gray.800"
+          backgroundColor="gray.900"
           p={3}
           id="language-tree"
         >
@@ -433,7 +433,7 @@ export const ToolsAndTech = () => {
         <TreeView.Root
           collection={frontendTree}
           maxW="xs"
-          backgroundColor="gray.800"
+          backgroundColor="gray.900"
           p={3}
           id="frontend-tree"
         >
@@ -466,7 +466,7 @@ export const ToolsAndTech = () => {
         <TreeView.Root
           collection={backendTree}
           maxW="xs"
-          backgroundColor="gray.800"
+          backgroundColor="gray.900"
           p={3}
           id="backend-tree"
         >
@@ -500,7 +500,7 @@ export const ToolsAndTech = () => {
           collection={databaseTree}
           defaultExpandedValue={["sql", "nosql"]}
           maxW="xs"
-          backgroundColor="gray.800"
+          backgroundColor="gray.900"
           p={3}
           id="database-tree"
         >
@@ -533,7 +533,7 @@ export const ToolsAndTech = () => {
         <TreeView.Root
           collection={toolsAndPlatformsTree}
           maxW="xs"
-          backgroundColor="gray.800"
+          backgroundColor="gray.900"
           p={3}
           id="tools-and-platforms-tree"
         >

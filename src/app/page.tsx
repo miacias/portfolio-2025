@@ -4,6 +4,7 @@ import {
 import styles from "./page.module.css";
 import { Projects } from "@/components/Projects";
 import { ToolsAndTech } from "@/components/ToolsAndTech";
+import { Resume } from "@/components/Resume";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <main className={styles.main}>
         <Projects />
         <ToolsAndTech />
+        <Resume />
       </main>
 
       <footer className={styles.footer}></footer>

@@ -14,11 +14,11 @@ export const Projects = () => {
       <Heading as="h2" size="2xl" mb="6" textAlign="center">
         Portfolio
       </Heading>
-      <Flex wrap='wrap' justify="center" gap={8}>
-        <ConcordeInc />
+      <Flex wrap='wrap' justify="center" gap={8} alignItems="flex-start">
         <AlternateUniverses />
-        <NavsupBsc />
         <LeesCleaners />
+        <ConcordeInc />
+        <NavsupBsc />
       </Flex>
     </Container>
   );
